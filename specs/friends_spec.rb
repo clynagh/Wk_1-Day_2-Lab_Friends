@@ -77,7 +77,10 @@ end
 
   # 2. For a given person, check if they like a particular food
 
-
+  def test_person_like_particular_food
+    result = get_particular_foods(@person3, "stew")
+    assert_equal(true, result)
+end
   # 3. Allow a new friend to be added to a given person
 
 
