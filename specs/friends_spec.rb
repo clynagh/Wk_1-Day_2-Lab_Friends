@@ -81,6 +81,7 @@ end
     result = get_particular_foods(@person3, "stew")
     assert_equal(true, result)
 end
+
   # 3. Allow a new friend to be added to a given person
 
 
